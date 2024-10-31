@@ -1,4 +1,4 @@
-# CommunityBanList Bot
+# CBL Discord Bot
 
 This Discord bot is used by the CommunityBanList to perform administrative tasks via Discord. It provides a range of administrative commands for managing organizations and ban lists in a MySQL database. Only users with the "Lead" role are permitted to execute commands.
 
@@ -21,8 +21,8 @@ This Discord bot is used by the CommunityBanList to perform administrative tasks
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd CommunityBanListBot
+   git clone https://github.com/got2bhockey/cbl-discord-bot/
+   cd cbl-discord-bot
    ```
 
 2. Install the required packages:
