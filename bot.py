@@ -15,7 +15,7 @@ MYSQL_USER = os.getenv('MYSQL_USER')
 MYSQL_PASSWORD = os.getenv('MYSQL_PASSWORD')
 MYSQL_DATABASE = os.getenv('MYSQL_DATABASE')
 ERROR_CHANNEL_ID = int(os.getenv('ERROR_CHANNEL_ID'))
-REQUIRED_ROLE = "Lead"  # Define the required role here
+REQUIRED_ROLE = os.getenv('REQUIRED_ROLE')
 
 
 # Define intents and initialize bot

@@ -30,16 +30,16 @@ This Discord bot is used by the CommunityBanList to perform administrative tasks
    pip install -r requirements.txt
    ```
 
-3. Create a `.env` file in the project root and add the following variables:
-
-   ```env
-   DISCORD_TOKEN=your_discord_bot_token
-   MYSQL_HOST=your_mysql_host
-   MYSQL_USER=your_mysql_user
-   MYSQL_PASSWORD=your_mysql_password
-   MYSQL_DATABASE=your_mysql_database
-   ERROR_CHANNEL_ID=your_error_logging_channel_id
-   ```
+3. Set up environment variables:
+   - Copy the `.env.example` file to `.env`:
+     ```bash
+     cp .env.example .env
+     ```
+   - Open the `.env` file and fill in your specific values:
+     - `DISCORD_TOKEN`: Your Discord bot token.
+     - `MYSQL_HOST`, `MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_DATABASE`: MySQL database configuration.
+     - `ERROR_CHANNEL_ID`: The channel ID where errors will be logged.
+     - `REQUIRED_ROLE`: The role required to access bot commands (default is "Lead").
 
 
 ## Usage
